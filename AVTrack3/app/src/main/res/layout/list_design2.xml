@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    app:cardElevation="5dp">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_car_p"
+                android:layout_margin="20dp"
+                />
+                <TextView
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/oneside"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/name"
+                    android:text="BMB-943"
+                    android:fontFamily="@font/coresans_cr_regular"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:orientation="horizontal">
+                        <TextView
+                            android:layout_marginRight="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:gravity="center"
+                            android:drawablePadding="10dp"
+                            android:id="@+id/speed"
+                            android:drawableLeft="@drawable/ic_baseline_speed_24"
+                            android:text="BMB-943"
+                            android:fontFamily="@font/coresans_cr_regular"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="BMB-943"
+                        android:id="@+id/time"
+                        android:drawablePadding="10dp"
+                        android:gravity="center"
+                        android:drawableLeft="@drawable/ic_baseline_timer_24"
+
+
+                        android:fontFamily="@font/coresans_cr_regular"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Location Appear here"
+                        android:id="@+id/location"
+                        android:drawablePadding="10dp"
+                        android:gravity="center"
+                        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                        android:fontFamily="@font/coresans_cr_regular"
+
+                        android:layout_marginBottom="10dp"/>
+                </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
